@@ -1,0 +1,20 @@
+<?php
+class Worker
+{
+        public $name;
+        public static $workFrom = '9:00';
+        public static $workTill = '21:00';
+
+    public static function setSchedule($from , $till)
+    {
+    self:: $workFrom = $from;
+    self :: $workTill = $till;
+}
+    public function getSchedule ()
+    {
+        return $this->name . ' : my tabletable : from ' . self::$workFrom . ' till ' . self::$workTill;
+    }
+}
+
+var_dump(Worker::$workFrom);
+

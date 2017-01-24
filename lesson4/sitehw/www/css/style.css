@@ -1,0 +1,127 @@
+/* Здесь находятся стили для проекта Magaz */
+
+body {
+    background-color: #f8f8f8;
+    font: bold sans-serif 16pt
+}
+
+header h1 {
+    color: black;
+    font-size: 28px;
+    font-style: oblique;
+}
+
+nav a {
+    background-color: lavender;
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px; /* Отступ слева */
+    border: 1px solid blue; /* Рамка вокруг текста */
+    padding: 5px; /* Поля вокруг текста */
+    padding-bottom: 8px;
+}
+
+.mainmenubottom a {
+    background-color: lavender;
+    color: cornflowerblue;
+    line-height: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+h2 {
+    background-color: lavender;
+    color: black;
+    font-size: 22px;
+}
+
+.mainpage p {
+    background-color: #eaeaea;
+    color: #707070;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cataloguepagelink {
+    background-color: lavender;
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.cataloguepage img {
+    height: 50px;
+    width: auto;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: deepskyblue;
+}
+
+h3 {
+    background-color: #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.productbrief p {
+    line-height: 24px;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.productdetail p {
+    line-height: 24px;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.productcharact, .contactspage li {
+    line-height: 18px;
+    color: cornflowerblue;
+    font-size: 14px;
+    font-weight: 100;
+    list-style-image: url("../img/marker1.png");
+}
+
+
+.productpage img {
+    height: 120px;
+    width: auto;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: deepskyblue;
+}
+
+.contactspage input, textarea {
+    background-color:#D3D5FF;
+    color:#0007D3;
+    border:2px solid #7A7DD6;
+    padding:5px;
+}
+
+.contactspage img {
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: deepskyblue;
+}
